@@ -1,7 +1,9 @@
-import matplotlib.pyplot as plt
+'''import matplotlib.pyplot as plt''' 
 lista = []
 num= input ("Ingrese el número que deseé")
-type(int(num))
+lista.append(num)
+int(num)
+
 while num != 1:
   if num %2 == 0:
     num = num/2
