@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 lista = []
 num= input ("Ingrese el número que deseé")
 type(int(num))
